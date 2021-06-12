@@ -101,7 +101,7 @@ public class Disciplina {
         con.close();
     }
     
-    public static void changePassword(String nome, Float p1, Float p2) throws Exception{
+    public static void updateDisciplina(String nome, Float p1, Float p2) throws Exception{
         Connection con = DbListener.getConnection();
         String sql = "UPDATE disciplinas SET qt_p1 = ?, qt_p2 = ? WHERE nm_disciplina = ?";
         PreparedStatement stmt = con.prepareStatement(sql);
