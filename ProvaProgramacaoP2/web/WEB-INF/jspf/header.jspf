@@ -48,7 +48,7 @@
         </b>
         <input type="submit" name="session.logout" value="Sair"/>
         | <a href="index.jsp">INÍCIO</a>
-        | <a href="disciplina.jsp">DISCIPLINAS</a>
+        | <a href="disciplinas.jsp">DISCIPLINAS</a>
     </form>
 <%}%>
 <hr/>
