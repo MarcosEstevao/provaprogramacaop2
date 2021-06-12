@@ -13,7 +13,7 @@
                 headerError = "Usuário / senha não encontrado";
             }else{
                 session.setAttribute("user.login", user.getLogin());
-                session.setAttribute("user.nome", user.getName());
+                session.setAttribute("user.nome", user.getNome());
                 response.sendRedirect(request.getRequestURI());
             }
         }catch(Exception ex){
