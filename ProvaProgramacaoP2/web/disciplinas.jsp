@@ -12,6 +12,7 @@
 nome, dia da semana, horário, quantidade de aulas, nota da p1 e nota da p2
 --%>
 
+<%@page import="db.Disciplina"%>
 <%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
